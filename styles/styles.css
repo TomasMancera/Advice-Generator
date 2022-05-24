@@ -73,3 +73,19 @@ h2,span{
 .btn-change:hover{
     box-shadow: 0px 0px 12px hsl(193, 38%, 86%);
 }
+
+/* responsive*/
+
+@media (max-width:518px){
+    #advice-card{
+        max-width: 350px;
+
+
+    }
+    .advice-parrafo{
+        font-size: 20px;
+    }
+    .divider{
+        content:url("../images/pattern-divider-mobile.svg");
+    }
+}
